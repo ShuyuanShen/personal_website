@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Shuyuan Shen"
+
+  page-footer:
+    left: " "
+    right: "This page is built using [Quarto](https://quarto.org/) and the [qtwAcademic](https://andreaczhang.github.io/qtwAcademic/index.html) package developed by [Chi Zhang](https://andreaczhang.github.io). Codes for publication listing are from [Carlisle Rainey](https://github.com/carlislerainey/carlislerainey.github.io/tree/master)."
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+
+      - href: research/index.qmd
+        text: Research
+
+      - href: teaching/index.qmd
+        text: Teaching
+      
+      - href: CV/index.qmd
+        text: CV
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+
+
+
