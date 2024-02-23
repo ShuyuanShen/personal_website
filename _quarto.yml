@@ -5,6 +5,8 @@ project:
 website:
   page-navigation: true
   title: "Shuyuan Shen"
+  site-url: https://www.shuyuanshen.com
+  google-analytics: G-J175W6HZ1T
 
   page-footer:
     left: " "
