@@ -51,23 +51,6 @@
     - Authoritarian Politics
     - Democracy and Democratization
     - Political Communication
-    
-- title: "“Whatabout” Legitimacy: International News and Domestic Legitimation in China"
-  type: "Inprogress"
-  #date: 
-  #year: 
-  #pdf: ""
-  #pubopen: ""
-  #journal: "<em></em>"
-  #dataverse: ""
-  #doi: ""
-  author: 
-    - Shuyuan Shen
-  categories: 
-    - Authoritarian Politics
-    - Political Communication
-    - Propaganda
-    - Legitimacy
 
 - title: "With Great Power Comes Great Responsibility: Personalization and Responsibility Attribution in Autocracies"
   type: "Working"
@@ -84,22 +67,6 @@
   categories: 
     - Authoritarian Politics
     - Personalism
-    
-- title: "Plotlines and Politics: How Political Entertainment Influences Foreign Audience"
-  type: "Inprogress"
-  #date: 
-  #year: 
-  #pdf: ""
-  #pubopen: ""
-  #journal: "<em></em>"
-  #dataverse: ""
-  #doi: ""
-  author: 
-    - Shuyuan Shen
-  categories: 
-    - Political Communication
-    - Legitimacy
-    - Democracy and Democratization
 
 - title: "Serve the People: Public Goods Information and Communicative Strategies of Local Governments in China"
   type: "Working"
@@ -117,6 +84,106 @@
   categories: 
     - Authoritarian Politics
     - Propaganda
-    - Legitimacy
+    - Legitimacy    
 
-  
+- title: "“Whatabout” Legitimacy: International News and Domestic Legitimation in China"
+  type: "Inprogress"
+  #date: 
+  #year: 
+  #pdf: ""
+  #pubopen: ""
+  #journal: "<em></em>"
+  #dataverse: ""
+  #doi: ""
+  author: 
+    - Shuyuan Shen
+  categories: 
+    - Authoritarian Politics
+    - Political Communication
+    - Propaganda
+    - Legitimacy
+    
+- title: "Plotlines and Politics: How Political Entertainment Influences Foreign Audience"
+  type: "Inprogress"
+  #date: 
+  #year: 
+  #pdf: ""
+  #pubopen: ""
+  #journal: "<em></em>"
+  #dataverse: ""
+  #doi: ""
+  author: 
+    - Shuyuan Shen
+  categories: 
+    - Political Communication
+    - Legitimacy
+    - Democracy and Democratization
+
+
+- title: "Propagating War with Baby Voices and Cat Memes: How Soft Military Propaganda Reshapes Public Support for War in China"
+  type: "Inprogress"
+  #date: 
+  #year: 
+  #pdf: ""
+  #pubopen: ""
+  #journal: "<em></em>"
+  #dataverse: ""
+  #doi: ""
+  author: 
+    - Shuyuan Shen
+    - Jianjun Yu
+  categories: 
+    - Political Communication
+    - Propaganda
+    - China
+
+- title: "“Canceled”: The Democratic Consequences of Perceived Censorship"
+  type: "Inprogress"
+  #date: 
+  #year: 
+  #pdf: ""
+  #pubopen: ""
+  #journal: "<em></em>"
+  #dataverse: ""
+  #doi: ""
+  author: 
+    - Shuyuan Shen
+  categories: 
+    - Political Communication
+    - Democracy and Democratization
+    - Censorship
+    
+    
+- title: "Censorship and Propaganda Persuasiveness in Autocracies"
+  type: "Inprogress"
+  #date: 
+  #year: 
+  #pdf: ""
+  #pubopen: ""
+  #journal: "<em></em>"
+  #dataverse: ""
+  #doi: ""
+  author: 
+    - Shuyuan Shen
+  categories: 
+    - Political Communication
+    - Propaganda
+    - Authoritarian Politics
+    - Censorship
+
+- title: "Buying a Foreign Boat: How China Reshapes Media Abroad"
+  type: "Inprogress"
+  #date: 
+  #year: 
+  #pdf: ""
+  #pubopen: ""
+  #journal: "<em></em>"
+  #dataverse: ""
+  #doi: ""
+  author: 
+    - Shuyuan Shen
+    - Maggie Zhang
+  categories: 
+    - Political Communication
+    - Propaganda
+    - China
