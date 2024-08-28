@@ -1,6 +1,6 @@
 ---
 title: "Shuyuan Shen"
-image: profile.JPG
+image: New_Profile_compressed.JPG
 about:
   id: hero-heading
   template: trestles
@@ -29,11 +29,13 @@ about:
 
 ::: {#hero-heading}
 
-I am a Ph.D. candidate in political science at the University of Illinois Urbana-Champaign. 
+Shuyuan Shen is a Ph.D. candidate specializing in Comparative Politics and Chinese Politics. His research explores political communication and political economy of China and other autocracies, using computational and experimental methods. His dissertation investigates how the Chinese government and media manipulate foreign news for domestic gains. His work appears in International Studies Quarterly and World Development.
 
-I am broadly interested in political communication, information and communications technology (ICT), and public opinion in authoritarian regimes. 
+Research Interests:
 
-My current projects explore the effect of propaganda and censorship in autocracies with computational and experimental methods.
+  - Comparative Politics
+  - Chinese Politics
+  - Computational Social Science
 
 :::
 
