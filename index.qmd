@@ -1,6 +1,6 @@
 ---
 title: "Shuyuan Shen"
-image: New_Profile_compressed.JPG
+image: new_profile.JPG
 about:
   id: hero-heading
   template: trestles
