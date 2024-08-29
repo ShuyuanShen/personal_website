@@ -29,7 +29,7 @@ about:
 
 ::: {#hero-heading}
 
-Shuyuan Shen is a Ph.D. candidate specializing in Comparative Politics and Chinese Politics. His research explores political communication and political economy of China and other autocracies, using computational and experimental methods. His dissertation investigates how the Chinese government and media manipulate foreign news for domestic gains. His work appears in International Studies Quarterly and World Development.
+Shuyuan Shen is a Ph.D. candidate at the University of Illinois, specializing in Comparative Politics and Chinese Politics. His research explores political communication and political economy of China and other autocracies, using computational and experimental methods. His dissertation investigates how the Chinese government and media manipulate foreign news for domestic gains. His work appears in International Studies Quarterly and World Development.
 
 Research Interests:
 
