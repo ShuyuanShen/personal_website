@@ -37,12 +37,12 @@ You can follow me on [Google Scholar](https://scholar.google.com/citations?hl=en
 
 <br>
 
-## Published Papers
+## Publications
 
 :::{#published-papers}
 :::
 
-## Working Papers
+## Under Review
 
 :::{#unpublished-papers}
 :::
