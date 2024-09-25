@@ -7,9 +7,9 @@ subtitle: " "
 
 This course focuses on one salient yet controversial issue in politics: the effect of media and information technology on democracy. In many advanced democracies, there are heated debates nowadays on whether and how traditional and social media undermine support for democracy and democratic participation in the increasingly partisan and polarizing political environment. In autocracies, the roles of media and information in promoting/undermining the authoritarian rule also attract much attention from scholars, politicians, journalists, as well as the public. Many discuss the role of social media in the Arab Spring and Belarus Protests, yet others focus on the censorship capacity of the Chinese state in preventing collective action. The main goal of this class is to deepen students’ understanding of the complex relationship between media/information technology and democracy and enable them to critically engage in and contribute to the discussion with solid theoretical and empirical foundations. 
 
-![Creator: Unknown | Source: The Internet](DemoandDigital.jpeg)
+![Creator: Unknown | Source: The Internet](DemoandDigital.jpeg){width=100%}
 
-[Request Course Syllabus](mailto:shuyuan8@illinois.edu)
+[Course Syllabus](Media_Democracy_Syllabus.pdf){target="_blank"}
 
 
 ## Course: Introduction to Chinese Politics
@@ -18,6 +18,6 @@ This course offers an introduction to the politics of contemporary China (PRC). 
 
 ![Creator: TINGSHU WANG | Credit & Copyright: REUTERS](standingcommitteeCPC.jpeg){fig-alt="A photo of the Standing Committee of the Political Bureau of the 20th CPC Central Committee."}
 
-[Request Course Syllabus](mailto:shuyuan8@illinois.edu)
+[Course Syllabus](China_Politics_Syllabus.pdf){target="_blank"}
 
 
