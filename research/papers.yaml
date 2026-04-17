@@ -60,7 +60,7 @@
   #pubopen: ""
   #journal: "<em></em>"
   #dataverse: ""
-  #doi: ""
+  preprint: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5895103"
   author: 
     - Shuyuan Shen
     - Tianhong Yin
@@ -77,7 +77,7 @@
   #pubopen: ""
   #journal: "<em></em>"
   #dataverse: ""
-  #doi: ""
+  preprint: "https://www.aiddata.org/publications/framing-foreign-aid-chinese-propaganda-and-domestic-support-for-checkbook-diplomacy"
   author: 
     - Shuyuan Shen
     - Shuyan Huang

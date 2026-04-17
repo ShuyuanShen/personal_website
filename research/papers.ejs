@@ -18,17 +18,10 @@
       <%= item.title %> 
       <br/>
       <p>
-      <!-- paper info for Working papers -->
-      <% if (item.type == 'Working') { %>
+      <!-- paper info for not-yet-published papers -->
+      <% if (item.type !== 'Published') { %>
         <small class="text-muted">
-          <%= item.year %>. <%= item.author %>. <%= item.status %>.
-        </small>
-      <% } %>
-      
-      <!-- paper info for in progress papers -->
-      <% if (item.type == 'Inprogress') { %>
-        <small class="text-muted">
-          <%= item.author %>.
+          <%= item.date %>. <%= item.author %>. <%= item.status %>.
         </small>
       <% } %>
       
@@ -121,5 +114,4 @@
 </ul>
 
 ```
-
 

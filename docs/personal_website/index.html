@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research – Shuyuan Shen</title>
+<title>Shuyuan Shen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,14 +30,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -70,91 +67,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-unpublished-papers .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-type','listing-status','listing-year','listing-preprint','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-type","listing-status","listing-year","listing-preprint","listing-author","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-unpublished-papers'] = new List('listing-unpublished-papers', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-inprogress-papers .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-type','listing-author','listing-categories','listing-year',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-type","listing-author","listing-categories","listing-year"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-inprogress-papers'] = new List('listing-inprogress-papers', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-published-papers .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-type','listing-year','listing-pubclosed','listing-journal','listing-doi','listing-author','listing-categories','listing-pubopen',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-type","listing-year","listing-pubclosed","listing-journal","listing-doi","listing-author","listing-categories","listing-pubopen"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-published-papers'] = new List('listing-published-papers', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-J175W6HZ1T"></script>
 
 <script type="text/javascript">
@@ -165,35 +77,6 @@ gtag('js', new Date());
 gtag('config', 'G-J175W6HZ1T', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -220,7 +103,7 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
+    <a class="nav-link" href="../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -239,642 +122,79 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#publications" id="toc-publications" class="nav-link active" data-scroll-target="#publications">Publications</a></li>
-  <li><a href="#under-review" id="toc-under-review" class="nav-link" data-scroll-target="#under-review">Under Review</a></li>
-  <li><a href="#work-in-progress" id="toc-work-in-progress" class="nav-link" data-scroll-target="#work-in-progress">Work in Progress</a></li>
-  </ul>
-</nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="QXV0aG9yaXRhcmlhbiUyMFBvbGl0aWNz">Authoritarian Politics <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Q2hpbmVzZSUyMFBvbGl0aWNz">Chinese Politics <span class="quarto-category-count">(7)</span></div><div class="category" data-category="UG9saXRpY2FsJTIwQ29tbXVuaWNhdGlvbg==">Political Communication <span class="quarto-category-count">(9)</span></div><div class="category" data-category="UG9saXRpY2FsJTIwRWNvbm9teQ==">Political Economy <span class="quarto-category-count">(3)</span></div></div></div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
+
+
+
+<div class="quarto-about-trestles column-page">
+  <div class="about-entity">
+    <img src="profile.png" class="about-image
+  rectangle " style="width: 6cm;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
+<h1 class="title">Shuyuan Shen</h1>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<div class="quarto-title-meta column-page">
   </div>
-  
-
-
 </header>
-
-
-<p>You can follow me on <a href="https://scholar.google.com/citations?hl=en&amp;user=Z0KhJN4AAAAJ">Google Scholar</a> stay up to date on my research.</p>
-<p><br></p>
-<section id="publications" class="level2">
-<h2 class="anchored" data-anchor-id="publications">Publications</h2>
-<div id="listing-published-papers" class="quarto-listing quarto-listing-container-custom">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
-
-<style>
-  .btn-xs {
-    padding: 1px 5px;
-    font-size: 15px;
-  }
-  .ai-lg {
-    font-size: 1.2em;  /* Adjust as needed */
-  }
-</style>
-
-<ul class="list">
-  
-    <li data-index="0" data-categories="Q2hpbmVzZSUyMFBvbGl0aWNzJTJDUG9saXRpY2FsJTIwQ29tbXVuaWNhdGlvbg==">
-      Serve the People: Public Goods Information and Communicative Strategies of Local Governments in China 
-      <br>
-      <p>
-      <!-- paper info for not-yet-published papers -->
-      
-      
-      <!-- paper info for published papers -->
-      
-        <small class="text-muted">
-          2026. Jianjun Yu, Shuyuan Shen. <em>Journal of Contemporary China </em>.
-        </small>
-      
-      
-      <br>
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        <a role="button" href="https://doi.org/10.1080/10670564.2026.2639983" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="ai ai-closed-access ai-lg"></i> Publisher's Version 
-        </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      </p>
-      <hr>
-    </li>
-  
-    <li data-index="1" data-categories="Q2hpbmVzZSUyMFBvbGl0aWNzJTJDUG9saXRpY2FsJTIwRWNvbm9teQ==">
-      Money backfires: How Chinese investment fuels anti-China protests abroad 
-      <br>
-      <p>
-      <!-- paper info for not-yet-published papers -->
-      
-      
-      <!-- paper info for published papers -->
-      
-        <small class="text-muted">
-          2024. Do Young Gong, Sanghoon Kim-Leffingwell, Shuyuan Shen, Yujeong Yang. <em>World Development</em>.
-        </small>
-      
-      
-      <br>
-
-      
-      
-      
-      
-      
-      
-      
-        <a role="button" href="https://doi.org/10.1016/j.worlddev.2024.106566" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="ai ai-open-access ai-lg"></i> Open Access
-        </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      </p>
-      <hr>
-    </li>
-  
-    <li data-index="2" data-categories="Q2hpbmVzZSUyMFBvbGl0aWNzJTJDUG9saXRpY2FsJTIwRWNvbm9teQ==">
-      Killing Protests with Kindness: Anti-China Protests and China's Public Diplomacy 
-      <br>
-      <p>
-      <!-- paper info for not-yet-published papers -->
-      
-      
-      <!-- paper info for published papers -->
-      
-        <small class="text-muted">
-          2023. Yujeong Yang, Sanghoon Kim-Leffingwell, Shuyuan Shen, Do Young Gong. <em>International Studies Quarterly</em>.
-        </small>
-      
-      
-      <br>
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        <a role="button" href="https://doi.org/10.1093/isq/sqad087" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="ai ai-closed-access ai-lg"></i> Publisher's Version 
-        </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      </p>
-      <hr>
-    </li>
-  
-</ul>
-
-<div class="listing-no-matching d-none">No matching items</div>
+    <div class="about-links">
+  <a href="mailto:Shuyuan.Shen@lmu.edu" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+  <a href="https://scholar.google.com/citations?user=Z0KhJN4AAAAJ" class="about-link" rel="" target="">
+    <i class="bi bi-google"></i>
+     <span class="about-link-text">Google Scholar</span>
+  </a>
+  <a href="https://orcid.org/0000-0001-8446-6016" class="about-link" rel="" target="">
+    <i class="bi bi-person"></i>
+     <span class="about-link-text">ORCID</span>
+  </a>
+  <a href="https://github.com/ShuyuanShen" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
 </div>
-</section>
-<section id="under-review" class="level2">
-<h2 class="anchored" data-anchor-id="under-review">Under Review</h2>
-<div id="listing-unpublished-papers" class="quarto-listing quarto-listing-container-custom">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
-
-<style>
-  .btn-xs {
-    padding: 1px 5px;
-    font-size: 15px;
-  }
-  .ai-lg {
-    font-size: 1.2em;  /* Adjust as needed */
-  }
-</style>
-
-<ul class="list">
-  
-    <li data-index="0" data-categories="Q2hpbmVzZSUyMFBvbGl0aWNzJTJDUG9saXRpY2FsJTIwQ29tbXVuaWNhdGlvbg==">
-      Does Authoritarian Propaganda Persuade and Deter? A Meta-Analysis of 70 Chinese Propaganda Experiments 
-      <br>
-      <p>
-      <!-- paper info for not-yet-published papers -->
-      
-        <small class="text-muted">
-          . Shuyuan Shen, Tianhong Yin. Under Review.
-        </small>
-      
-      
-      <!-- paper info for published papers -->
-      
-      
-      <br>
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        <a role="button" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5895103" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="ai ai-doi ai-lg"></i> Preprint 
-        </a> 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      </p>
-      <hr>
-    </li>
-  
-    <li data-index="1" data-categories="Q2hpbmVzZSUyMFBvbGl0aWNzJTJDUG9saXRpY2FsJTIwRWNvbm9teSUyQ1BvbGl0aWNhbCUyMENvbW11bmljYXRpb24=">
-      Framing Foreign Aid: Chinese Propaganda and Domestic Support for Checkbook Diplomacy 
-      <br>
-      <p>
-      <!-- paper info for not-yet-published papers -->
-      
-        <small class="text-muted">
-          . Shuyuan Shen, Shuyan Huang. Under Review.
-        </small>
-      
-      
-      <!-- paper info for published papers -->
-      
-      
-      <br>
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        <a role="button" href="https://www.aiddata.org/publications/framing-foreign-aid-chinese-propaganda-and-domestic-support-for-checkbook-diplomacy" type="button" class="btn btn-outline-secondary btn-xs"> 
-          <i class="ai ai-doi ai-lg"></i> Preprint 
-        </a> 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      </p>
-      <hr>
-    </li>
-  
+  </div>
+  <div class="about-contents"><div id="hero-heading">
+<p>Shuyuan Shen is an Assistant Professor of Political Science and International Relations at Loyola Marymount University. He received his Ph.D.&nbsp;in Political Science from the University of Illinois Urbana-Champaign. His research sits at the intersection of comparative politics and international relations, with a focus on Chinese domestic and global politics, comparative political communication, and political economy. His work has been published in <em>International Studies Quarterly</em> and <em>World Development</em>.</p>
+<!-- Shuyuan's dissertation, *Whataboutism with Foreign Affairs: How Chinese Media Leverages -->
+<!-- Foreign News for Distraction and Legitimization,* draws on large-scale social media data and original experiments to examine how Chinese state media strategically use negative foreign news to divert public attention from domestic issues and reinforce regime support. By highlighting foreign news as a key instrument of distraction and legitimation, the project contributes to the study of authoritarian resilience and media politics, demonstrating how coverage of international affairs can shape domestic public opinion under authoritarian rule. -->
+<section id="research-interests" class="level2">
+<h2 data-anchor-id="research-interests">Research Interests</h2>
+<ul>
+<li>Chinese Domestic and Global Politics</li>
+<li>Comparative Political Communication</li>
+<li>Comparative Political Economy</li>
+<li>Computational Social Science</li>
 </ul>
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+<!-- ## Academic Appointment -->
+<!-- **Loyola Marymount University** | Los Angeles, CA -->
+<!-- - Incoming Assistant Professor | Starting from Aug 2025  -->
+<!-- ## Education -->
+<!-- **University of Illinois Urbana-Champaign** | Urbana, IL -->
+<!-- - PhD in Political Science | Aug 2019 - May 2025 -->
+<!-- **University of Notre Dame** | South Bend, IN -->
+<!-- - Master of Global Affairs | Aug 2017 - May 2019 -->
+<!-- **Chinese University of Hong Kong** | Hong Kong -->
+<!-- - BSSc in Sociology and Political Science | Aug 2013 - May 2017 -->
 </section>
-<section id="work-in-progress" class="level2">
-<h2 class="anchored" data-anchor-id="work-in-progress">Work in Progress</h2>
-<div id="listing-inprogress-papers" class="quarto-listing quarto-listing-container-custom">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
-
-<style>
-  .btn-xs {
-    padding: 1px 5px;
-    font-size: 15px;
-  }
-  .ai-lg {
-    font-size: 1.2em;  /* Adjust as needed */
-  }
-</style>
-
-<ul class="list">
-  
-    <li data-index="0" data-categories="Q2hpbmVzZSUyMFBvbGl0aWNzJTJDUG9saXRpY2FsJTIwQ29tbXVuaWNhdGlvbg==">
-      Softening Hard Power: Chinese Military Propaganda on Short Video Platforms 
-      <br>
-      <p>
-      <!-- paper info for not-yet-published papers -->
-      
-        <small class="text-muted">
-          . Shuyuan Shen, Jianjun Yu. .
-        </small>
-      
-      
-      <!-- paper info for published papers -->
-      
-      
-      <br>
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      </p>
-      <hr>
-    </li>
-  
-    <li data-index="1" data-categories="Q2hpbmVzZSUyMFBvbGl0aWNzJTJDUG9saXRpY2FsJTIwQ29tbXVuaWNhdGlvbg==">
-      Whataboutism with Foreign Affairs: How Chinese Media Leverages Foreign News for Distraction and Legitimization 
-      <br>
-      <p>
-      <!-- paper info for not-yet-published papers -->
-      
-        <small class="text-muted">
-          . Shuyuan Shen. .
-        </small>
-      
-      
-      <!-- paper info for published papers -->
-      
-      
-      <br>
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      </p>
-      <hr>
-    </li>
-  
-    <li data-index="2" data-categories="UG9saXRpY2FsJTIwQ29tbXVuaWNhdGlvbiUyQ0F1dGhvcml0YXJpYW4lMjBQb2xpdGljcw==">
-      Plotlines and Politics: How Political Entertainment Influences Foreign Audience 
-      <br>
-      <p>
-      <!-- paper info for not-yet-published papers -->
-      
-        <small class="text-muted">
-          . Shuyuan Shen. .
-        </small>
-      
-      
-      <!-- paper info for published papers -->
-      
-      
-      <br>
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      </p>
-      <hr>
-    </li>
-  
-    <li data-index="3" data-categories="QXV0aG9yaXRhcmlhbiUyMFBvbGl0aWNzJTJDUG9saXRpY2FsJTIwQ29tbXVuaWNhdGlvbg==">
-      With Great Power Comes Great Responsibility: Personalization and Responsibility Attribution in Autocracies 
-      <br>
-      <p>
-      <!-- paper info for not-yet-published papers -->
-      
-        <small class="text-muted">
-          . Shuyuan Shen. .
-        </small>
-      
-      
-      <!-- paper info for published papers -->
-      
-      
-      <br>
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      </p>
-      <hr>
-    </li>
-  
-    <li data-index="4" data-categories="QXV0aG9yaXRhcmlhbiUyMFBvbGl0aWNzJTJDUG9saXRpY2FsJTIwQ29tbXVuaWNhdGlvbg==">
-      Media and Democratization in Autocracies 
-      <br>
-      <p>
-      <!-- paper info for not-yet-published papers -->
-      
-        <small class="text-muted">
-          . Shuyuan Shen. .
-        </small>
-      
-      
-      <!-- paper info for published papers -->
-      
-      
-      <br>
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      </p>
-      <hr>
-    </li>
-  
-    <li data-index="5" data-categories="QXV0aG9yaXRhcmlhbiUyMFBvbGl0aWNzJTJDUG9saXRpY2FsJTIwQ29tbXVuaWNhdGlvbg==">
-      Media Capture and Coup Success 
-      <br>
-      <p>
-      <!-- paper info for not-yet-published papers -->
-      
-        <small class="text-muted">
-          . Shuyuan Shen. .
-        </small>
-      
-      
-      <!-- paper info for published papers -->
-      
-      
-      <br>
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <br>
-      
-      
-      </p>
-      <hr>
-    </li>
-  
-</ul>
-
-<div class="listing-no-matching d-none">No matching items</div>
+</div></div>
 </div>
 
 
 
-</section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
