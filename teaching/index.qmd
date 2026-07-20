@@ -1,41 +1,60 @@
 ---
 title: "Teaching"
-subtitle: " "
+description: "Courses taught by Shuyuan Shen at Loyola Marymount University."
+format:
+  html:
+    page-layout: full
 ---
 
-## Introduction to Comparative Politics
+::: {.page-intro}
+<p class="eyebrow">Teaching</p>
 
-An introduction to the study of comparative politics.
+# Courses that connect political institutions, information, and evidence
 
-[Course Syllabus](ComparativePolitics_Syllabus.pdf){target="_blank"}
+My courses invite students to compare political systems, analyze how information changes political behavior, and use empirical evidence to evaluate competing explanations.
+:::
 
-## Introduction to Chinese Politics
+::: {.course-grid}
+::: {.course-card}
+<span class="course-level">Foundational course</span>
+<h2>Comparative Politics</h2>
 
-An introduction to the domestic and international politics of contemporary China (PRC).
+An introduction to the comparative study of political institutions, regimes, and behavior.
 
-<!-- China is the world’s second-largest economy after the United States, accounting for just under 18 percent of global GDP. It has the second largest military budget in the world as of 2023, and it is one of the five permanent members of the United Nations Security Council. It is hard to overestimate the political, economic, and military impacts of China in the current world order. However, China contrasts sharply with liberal democracies particularly with its authoritarian political system, or what the Chinese Community Party (CCP) calls the “whole-process people’s democracy”. How does the Chinese political system work? What are the key institutions in the system? What is the policy- and decision-making process? How do civil societies and ordinary citizens evaluate and interact with the system? Is the Chinese political model sustainable or doomed to fail? What can other countries in the world learn from the Chinese political model? Throughout this journey, we’ll tackle these burning questions. The main goal of this course is to introduce students to the most crucial aspects of the Chinese political ecosystem, exploring how institutions, civic societies, and ordinary citizens co-exist, sustain, or challenge the system.
+[Syllabus](ComparativePolitics_Syllabus.pdf){target="_blank"}
+:::
 
-![Creator: TINGSHU WANG | Credit & Copyright: REUTERS](standingcommitteeCPC.jpeg){fig-alt="A photo of the Standing Committee of the Political Bureau of the 20th CPC Central Committee."} -->
+::: {.course-card}
+<span class="course-level">Regional politics</span>
+<h2>Chinese Politics</h2>
 
-[Course Syllabus](ChineseDomesticForeignPolitics_Syllabus.pdf){target="_blank"}
+The domestic institutions and international politics of contemporary China.
 
-## Authoritarian Politics
+[Syllabus](ChineseDomesticForeignPolitics_Syllabus.pdf){target="_blank"}
+:::
 
-Upper-level course on the institution and behavior of authoritarian regimes and citizens.
+::: {.course-card}
+<span class="course-level">Upper-level seminar</span>
+<h2>Authoritarian Politics</h2>
 
-[Course Syllabus](AuthoritarianPolitics_Syllabus.pdf){target="_blank"}
+Institutions, governance, and citizen behavior under authoritarian regimes.
 
-## Media, Information Technology, and Democracy
+[Syllabus](AuthoritarianPolitics_Syllabus.pdf){target="_blank"}
+:::
 
-Upper-level course on the effect of media and information technology on democracy. 
+::: {.course-card}
+<span class="course-level">Upper-level seminar</span>
+<h2>Media, Technology &amp; Democracy</h2>
 
-<!-- In many advanced democracies, there are heated debates nowadays on whether and how traditional and social media undermine support for democracy and democratic participation in the increasingly partisan and polarizing political environment. In autocracies, the roles of media and information in promoting/undermining the authoritarian rule also attract much attention from scholars, politicians, journalists, as well as the public. Many discuss the role of social media in the Arab Spring and Belarus Protests, yet others focus on the censorship capacity of the Chinese state in preventing collective action. The main goal of this class is to deepen students’ understanding of the complex relationship between media/information technology and democracy and enable them to critically engage in and contribute to the discussion with solid theoretical and empirical foundations.  -->
+How media systems and information technologies strengthen—or undermine—democratic politics.
 
-<!-- ![Creator: Unknown | Source: The Internet](DemoandDigital.jpeg){width=100%} -->
+[Syllabus](Media_Democracy_Syllabus.pdf){target="_blank"}
+:::
 
-[Course Syllabus](Media_Democracy_Syllabus.pdf){target="_blank"}
+::: {.course-card}
+<span class="course-level">Methods course · Fall 2026</span>
+<h2>Computational Social Science</h2>
 
-
-
-
-
+Computational approaches for collecting, analyzing, and interpreting political and social data.
+:::
+:::

@@ -1,217 +1,134 @@
-
 - title: "Serve the People: Public Goods Information and Communicative Strategies of Local Governments in China"
   type: "Published"
-  #date: 
+  date: "2026-01-01"
   year: 2026
-  #pdf: ""
   pubclosed: "https://doi.org/10.1080/10670564.2026.2639983"
-  journal: "<em>Journal of Contemporary China </em>"
-  #dataverse: ""
+  journal: "Journal of Contemporary China"
   doi: "10.1080/10670564.2026.2639983"
-  author: 
+  author:
     - Jianjun Yu
     - Shuyuan Shen
-  categories: 
+  categories:
     - Chinese Politics
     - Political Communication
-    
-- title: "Money backfires: How Chinese investment fuels anti-China protests abroad"
+
+- title: "Money Backfires: How Chinese Investment Fuels Anti-China Protests Abroad"
   type: "Published"
-  #date: 
+  date: "2024-01-01"
   year: 2024
-  #pdf: ""
   pubopen: "https://doi.org/10.1016/j.worlddev.2024.106566"
-  journal: "<em>World Development</em>"
-  #dataverse: ""
+  journal: "World Development"
   doi: "10.1016/j.worlddev.2024.106566"
-  author: 
+  author:
     - Do Young Gong
     - Sanghoon Kim-Leffingwell
     - Shuyuan Shen
     - Yujeong Yang
-  categories: 
+  categories:
     - Chinese Politics
     - Political Economy
-    
+
 - title: "Killing Protests with Kindness: Anti-China Protests and China's Public Diplomacy"
   type: "Published"
-  #date: 
+  date: "2023-01-01"
   year: 2023
-  #pdf: ""
   pubclosed: "https://doi.org/10.1093/isq/sqad087"
-  journal: "<em>International Studies Quarterly</em>"
-  #dataverse: ""
+  journal: "International Studies Quarterly"
   doi: "10.1093/isq/sqad087"
-  author: 
+  author:
     - Yujeong Yang
     - Sanghoon Kim-Leffingwell
     - Shuyuan Shen
     - Do Young Gong
-  categories: 
+  categories:
     - Chinese Politics
     - Political Economy
 
-- title: "Does Authoritarian Propaganda Persuade and Deter? A Meta-Analysis of 70 Chinese Propaganda Experiments"
-  type: "Working"
-  status: "Under Review"
-  #date: 
+- title: "Mass Media Reach, Information Control, and Autocratic Consolidation"
+  type: "Under Review"
+  date: "2026-04-01"
   year: 2026
-  #pdf: ""
-  #pubopen: ""
-  #journal: "<em></em>"
-  #dataverse: ""
+  author:
+    - Shuyuan Shen
+  categories:
+    - Authoritarian Politics
+    - Political Communication
+
+- title: "Conditional Voice, Official Belonging: Democratic Orientation, National Identity, and Political Participation Across Regime Types"
+  type: "Under Review"
+  date: "2026-03-01"
+  year: 2026
+  author:
+    - Shuyuan Shen
+    - Yongfeng Tang
+  categories:
+    - Comparative Politics
+    - Political Behavior
+
+- title: "Does Authoritarian Propaganda Persuade and Deter? A Meta-Analysis of 70 Chinese Propaganda Experiments"
+  type: "Under Review"
+  date: "2026-02-01"
+  year: 2026
   preprint: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5895103"
-  author: 
+  author:
     - Shuyuan Shen
     - Tianhong Yin
-  categories: 
+  categories:
     - Chinese Politics
     - Political Communication
 
-- title: "Framing Foreign Aid: Chinese Propaganda and Domestic Support for Checkbook Diplomacy"
-  type: "Working"
-  status: "Under Review"
-  #date: 
+- title: "Authoritarian Propaganda and Domestic Support for Foreign Aid: Evidence from China"
+  type: "Under Review"
+  date: "2026-01-01"
   year: 2026
-  #pdf: ""
-  #pubopen: ""
-  #journal: "<em></em>"
-  #dataverse: ""
   preprint: "https://www.aiddata.org/publications/framing-foreign-aid-chinese-propaganda-and-domestic-support-for-checkbook-diplomacy"
-  author: 
+  author:
     - Shuyuan Shen
     - Shuyan Huang
-  categories: 
+  categories:
     - Chinese Politics
     - Political Economy
     - Political Communication
 
 - title: "Softening Hard Power: Chinese Military Propaganda on Short Video Platforms"
-  type: "Inprogress"
-  #date: 
-  #year: 
-  #pdf: ""
-  #pubopen: ""
-  #journal: "<em></em>"
-  #dataverse: ""
-  #doi: ""
-  author: 
+  type: "Working Paper"
+  date: "2026-03-01"
+  year: 2026
+  author:
     - Shuyuan Shen
     - Jianjun Yu
-  categories: 
+  categories:
     - Chinese Politics
     - Political Communication
 
 - title: "Whataboutism with Foreign Affairs: How Chinese Media Leverages Foreign News for Distraction and Legitimization"
-  type: "Inprogress"
-  #date: 
-  #year: 
-  #pdf: ""
-  #pubopen: ""
-  #journal: "<em></em>"
-  #dataverse: ""
-  #doi: ""
-  author: 
+  type: "Working Paper"
+  date: "2026-02-01"
+  year: 2026
+  author:
     - Shuyuan Shen
-  categories: 
+  categories:
     - Chinese Politics
     - Political Communication
 
-    
 - title: "Plotlines and Politics: How Political Entertainment Influences Foreign Audience"
-  type: "Inprogress"
-  #date: 
-  #year: 
-  #pdf: ""
-  #pubopen: ""
-  #journal: "<em></em>"
-  #dataverse: ""
-  #doi: ""
-  author: 
+  type: "Working Paper"
+  date: "2026-01-01"
+  year: 2026
+  author:
     - Shuyuan Shen
-  categories: 
+  categories:
     - Political Communication
     - Authoritarian Politics
 
-- title: "With Great Power Comes Great Responsibility: Personalization and Responsibility Attribution in Autocracies"
-  type: "Inprogress"
-  # status: "Under Review"
-  #date: 
-  year: 2025
-  #pdf: ""
-  #pubopen: ""
-  #journal: "<em></em>"
-  #dataverse: ""
-  #doi: ""
-  author: 
+- title: "Humane Immigration Enforcement: The Way Forward"
+  type: "Policy Report"
+  date: "2019-01-01"
+  year: 2019
+  author:
+    - Patrick Calderon
+    - Kathleen Kollman
+    - Mehak Siddiquei
     - Shuyuan Shen
-  categories: 
-    - Authoritarian Politics
-    - Political Communication
-
-- title: "Media and Democratization in Autocracies"
-  type: "Inprogress"
-  # status: "Under Review"
-  #date: 
-  year: 2025
-  #pdf: ""
-  #pubopen: ""
-  #journal: "<em></em>"
-  #dataverse: ""
-  #doi: ""
-  author: 
-    - Shuyuan Shen
-  categories: 
-    - Authoritarian Politics
-    - Political Communication
-
-- title: "Media Capture and Coup Success"
-  type: "Inprogress"
-  # status: "Under Review"
-  #date: 
-  # year: 2025
-  #pdf: ""
-  #pubopen: ""
-  #journal: "<em></em>"
-  #dataverse: ""
-  #doi: ""
-  author: 
-    - Shuyuan Shen
-  categories: 
-    - Authoritarian Politics
-    - Political Communication
-
-
-# - title: "Buying a Foreign Boat: How China Reshapes Media Abroad"
-#   type: "Inprogress"
-#   #date: 
-#   #year: 
-#   #pdf: ""
-#   #pubopen: ""
-#   #journal: "<em></em>"
-#   #dataverse: ""
-#   #doi: ""
-#   author: 
-#     - Shuyuan Shen
-#     - Maggie Zhang
-#   categories: 
-#     - Chinese Politics
-#     - Political Communication
-#     - Political Economy
-    
-# - title: "Censorship and Propaganda Persuasiveness in Autocracies"
-#   type: "Inprogress"
-#   #date: 
-#   #year: 
-#   #pdf: ""
-#   #pubopen: ""
-#   #journal: "<em></em>"
-#   #dataverse: ""
-#   #doi: ""
-#   author: 
-#     - Shuyuan Shen
-#   categories: 
-#     - Chinese Politics
-#     - Political Communication
-
-
+  categories:
+    - Immigration Policy

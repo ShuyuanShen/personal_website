@@ -1,60 +1,85 @@
 ---
 title: "Research"
-description: "" 
+description: "Publications and ongoing research by Shuyuan Shen."
+format:
+  html:
+    page-layout: full
 listing:
-  - id: unpublished-papers
-    include: 
-      type: "Working"
-    contents: papers.yaml
-    template: papers.ejs
-    filter-ui: false
-    sort: "date desc"
-    sort-ui: false
-    categories: true
-  - id: inprogress-papers
-    include: 
-      type: "Inprogress"
-    contents: papers.yaml
-    template: papers.ejs
-    filter-ui: false
-    sort: "date desc"
-    sort-ui: false
-    categories: true  
   - id: published-papers
-    include: 
+    include:
       type: "Published"
     contents: papers.yaml
     template: papers.ejs
-    #filter-ui: true
-    sort: "date desc" 
+    filter-ui: false
+    sort: "date desc"
     sort-ui: false
-    categories: true
-toc: true    
-#page-layout: full
+    categories: false
+  - id: review-papers
+    include:
+      type: "Under Review"
+    contents: papers.yaml
+    template: papers.ejs
+    filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    categories: false
+  - id: working-papers
+    include:
+      type: "Working Paper"
+    contents: papers.yaml
+    template: papers.ejs
+    filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    categories: false
+  - id: policy-reports
+    include:
+      type: "Policy Report"
+    contents: papers.yaml
+    template: papers.ejs
+    filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    categories: false
 ---
 
-You can follow me on [Google Scholar](https://scholar.google.com/citations?hl=en&user=Z0KhJN4AAAAJ) stay up to date on my research. 
+::: {.research-intro}
+<p class="eyebrow">Research</p>
 
-<br>
+# Information, authoritarian politics, and China in the world
 
-## Publications
+My work examines how political actors use information to persuade, distract, and govern—and how those strategies shape public opinion at home and international relations abroad. I combine computational approaches with experiments and comparative analysis.
 
+::: {.topic-row}
+<span>Political communication</span>
+<span>Chinese politics</span>
+<span>Political economy</span>
+<span>Computational methods</span>
+:::
+
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=Z0KhJN4AAAAJ){.button-secondary}
+:::
+
+::: {.research-section}
+<div class="section-heading"><span>01</span><h2>Publications</h2></div>
 :::{#published-papers}
 :::
-
-## Under Review
-
-:::{#unpublished-papers}
 :::
 
-## Work in Progress
-
-:::{#inprogress-papers}
+::: {.research-section}
+<div class="section-heading"><span>02</span><h2>Under review</h2></div>
+:::{#review-papers}
+:::
 :::
 
+::: {.research-section}
+<div class="section-heading"><span>03</span><h2>Working papers</h2></div>
+:::{#working-papers}
+:::
+:::
 
-
-
-
-
-
+::: {.research-section}
+<div class="section-heading"><span>04</span><h2>Policy report</h2></div>
+:::{#policy-reports}
+:::
+:::

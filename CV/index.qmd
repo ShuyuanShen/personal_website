@@ -1,9 +1,19 @@
 ---
 title: "CV"
+description: "Curriculum vitae for Shuyuan Shen."
+format:
+  html:
+    page-layout: full
 ---
 
-::: {#CV}
+::: {.cv-header}
+<p class="eyebrow">Curriculum vitae</p>
 
-<iframe width="100%" height="600" src="ShuyuanShen_CV.pdf"></iframe>
+# Academic experience, research, and teaching
 
+[Download CV](ShuyuanShen_CV.pdf){.button-primary target="_blank"}
+:::
+
+::: {.cv-frame}
+<iframe title="Curriculum vitae for Shuyuan Shen" src="ShuyuanShen_CV.pdf"></iframe>
 :::

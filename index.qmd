@@ -1,68 +1,111 @@
 ---
 title: "Shuyuan Shen"
-image: profile.JPG
-format: 
+description: "Assistant Professor of Political Science and International Relations at Loyola Marymount University."
+format:
   html:
     page-layout: full
-about:
-  id: hero-heading
-  template: trestles
-  image-shape: rectangle
-  image-width: 6cm
-  links:
-    - icon: envelope
-      text: Email
-      href: mailto:Shuyuan.Shen@lmu.edu
-    - icon: google
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=Z0KhJN4AAAAJ
-    - icon: person
-      text: ORCID
-      href: https://orcid.org/0000-0001-8446-6016
-    - icon: github
-      text: Github
-      href: https://github.com/ShuyuanShen
-    # - icon: twitter
-    #   text: Twitter/X
-    #   href: https://twitter.com/shen_shuyuan
-    # - icon: linkedin
-    #   text: LinkedIn
-    #   href: www.linkedin.com/in/shuyuanshen
 ---
 
-::: {#hero-heading}
+::: {.home-hero}
+::: {.hero-copy}
+<p class="eyebrow">Political scientist · Los Angeles</p>
 
-Shuyuan Shen is an Assistant Professor of Political Science and International Relations at Loyola Marymount University. He received his Ph.D. in Political Science from the University of Illinois Urbana-Champaign. His research sits at the intersection of comparative politics and international relations, with a focus on Chinese domestic and global politics, comparative political communication, and political economy, using computational and experimental methods. His work has been published in *International Studies Quarterly*, *World Development*, and *Journal of Contemporary China*.
-  
-<!-- Shuyuan's dissertation, *Whataboutism with Foreign Affairs: How Chinese Media Leverages -->
-<!-- Foreign News for Distraction and Legitimization,* draws on large-scale social media data and original experiments to examine how Chinese state media strategically use negative foreign news to divert public attention from domestic issues and reinforce regime support. By highlighting foreign news as a key instrument of distraction and legitimation, the project contributes to the study of authoritarian resilience and media politics, demonstrating how coverage of international affairs can shape domestic public opinion under authoritarian rule. -->
+# Shuyuan Shen
 
-## Research Interests
+<p class="hero-role">Assistant Professor of Political Science and International Relations at Loyola Marymount University</p>
 
-  - Chinese Domestic and Global Politics
-  - Comparative Political Communication
-  - Comparative Political Economy
-  - Computational Social Science
-  
-<!-- ## Academic Appointment -->
+<p class="hero-lede">I study how media, propaganda, and political communication shape public opinion and state behavior, with a regional focus on China and a methodological focus on computational and experimental research.</p>
 
-<!-- **Loyola Marymount University** | Los Angeles, CA -->
-
-<!-- - Incoming Assistant Professor | Starting from Aug 2025  -->
-
-<!-- ## Education -->
-
-<!-- **University of Illinois Urbana-Champaign** | Urbana, IL -->
-
-<!-- - PhD in Political Science | Aug 2019 - May 2025 -->
-
-<!-- **University of Notre Dame** | South Bend, IN -->
-
-<!-- - Master of Global Affairs | Aug 2017 - May 2019 -->
-
-<!-- **Chinese University of Hong Kong** | Hong Kong -->
-
-<!-- - BSSc in Sociology and Political Science | Aug 2013 - May 2017 -->
-
+::: {.hero-actions}
+[Explore research](research/index.qmd){.button-primary}
+[Download CV](CV/ShuyuanShen_CV.pdf){.button-secondary target="_blank"}
 :::
 
+::: {.social-row}
+[<i class="bi bi-envelope" aria-hidden="true"></i> Email](mailto:Shuyuan.Shen@lmu.edu)
+[<i class="bi bi-mortarboard" aria-hidden="true"></i> Google Scholar](https://scholar.google.com/citations?user=Z0KhJN4AAAAJ)
+[<i class="bi bi-person-badge" aria-hidden="true"></i> ORCID](https://orcid.org/0000-0001-8446-6016)
+[<i class="bi bi-github" aria-hidden="true"></i> GitHub](https://github.com/ShuyuanShen)
+:::
+:::
+
+::: {.portrait-wrap}
+<img src="profile.png" class="hero-portrait" alt="Portrait of Shuyuan Shen">
+<div class="portrait-accent" aria-hidden="true"></div>
+:::
+:::
+
+::: {.home-band}
+::: {.band-label}
+## Research agenda
+:::
+
+::: {.band-copy}
+My research bridges comparative politics and international relations to explain how information travels through authoritarian political systems—and what happens when domestic communication becomes global politics.
+:::
+:::
+
+::: {.research-pillars}
+::: {.pillar}
+<span class="pillar-number">01</span>
+<h3>Political communication</h3>
+Propaganda, censorship, persuasion, and the political consequences of how governments communicate.
+:::
+
+::: {.pillar}
+<span class="pillar-number">02</span>
+<h3>Chinese politics</h3>
+Domestic governance and China’s global political and economic engagement.
+:::
+
+::: {.pillar}
+<span class="pillar-number">03</span>
+<h3>Computational social science</h3>
+Text-as-data, causal inference, meta-analysis, and survey and field experiments.
+:::
+:::
+
+::: {.featured-work}
+::: {.featured-heading}
+<p class="eyebrow">Recent work</p>
+## Research across media, markets, and governance
+:::
+
+::: {.featured-grid}
+::: {.featured-card}
+<span class="work-type">Journal of Contemporary China · 2026</span>
+<h3>Serve the People</h3>
+Public goods information and the communicative strategies of local governments in China.
+
+[View article →](https://doi.org/10.1080/10670564.2026.2639983)
+:::
+
+::: {.featured-card}
+<span class="work-type">World Development · 2024</span>
+<h3>Money Backfires</h3>
+How Chinese investment fuels anti-China protests abroad.
+
+[View article →](https://doi.org/10.1016/j.worlddev.2024.106566)
+:::
+
+::: {.featured-card}
+<span class="work-type">International Studies Quarterly · 2023</span>
+<h3>Killing Protests with Kindness</h3>
+Anti-China protests and China’s public diplomacy.
+
+[View article →](https://doi.org/10.1093/isq/sqad087)
+:::
+:::
+
+[See all research](research/index.qmd){.text-link}
+:::
+
+::: {.award-strip}
+::: {.award-mark}
+<i class="bi bi-award" aria-hidden="true"></i>
+:::
+::: {.award-copy}
+<span>2026 Kathleen L. Burkholder Prize</span>
+Best Dissertation, University of Illinois Urbana-Champaign
+:::
+:::

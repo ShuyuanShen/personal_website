@@ -1,18 +1,26 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - CNAME
 
 website:
   page-navigation: true
   title: "Shuyuan Shen"
+  description: "Shuyuan Shen is an Assistant Professor of Political Science and International Relations at Loyola Marymount University."
   site-url: https://www.shuyuanshen.com
   google-analytics: "G-J175W6HZ1T"
+  open-graph: true
+  twitter-card: true
+  search: false
 
   page-footer:
-    left: " "
-    right: "This page is built using [Quarto](https://quarto.org/) and the [qtwAcademic](https://andreaczhang.github.io/qtwAcademic/index.html) package developed by [Chi Zhang](https://andreaczhang.github.io). Codes for publication listing are from [Carlisle Rainey](https://github.com/carlislerainey/carlislerainey.github.io/tree/master)."
+    left: "© 2026 Shuyuan Shen"
+    center: "Political Science · Loyola Marymount University"
+    right: "Built with [Quarto](https://quarto.org/)"
 
   navbar:
+    background: light
     left:
       - href: index.qmd
         text: About
@@ -27,9 +35,9 @@ website:
         text: CV
 format:
   html:
-    theme: sandstone
+    theme: cosmo
     css: styles.css
-    toc: true
-
-
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
 
